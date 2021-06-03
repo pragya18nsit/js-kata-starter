@@ -1,9 +1,9 @@
-export function systemUnderTest(): boolean {
-  return true;
-}
-
 export class Character{
-  getHealth(): any {
-    throw new Error("Method not implemented.");
+  getHealth(): Number {
+    return 1000;
   }
-};
+
+  getLevel(): Number {
+    throw new Error("Not implemented yet");
+  }
+}
