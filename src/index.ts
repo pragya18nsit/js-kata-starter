@@ -4,6 +4,6 @@ export class Character{
   }
 
   getLevel(): Number {
-    throw new Error("Not implemented yet");
+    return 1;
   }
 }
