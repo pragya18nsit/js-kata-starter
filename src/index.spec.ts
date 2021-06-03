@@ -10,4 +10,9 @@ describe("when a new character is created", function() {
     const character = new Character();
     expect(character.getLevel()).toEqual(1);
   })
+
+  it("Should be alive", () => {
+    const character = new Character();
+    expect(character.isAlive()).toEqual(true);
+  })
 });
